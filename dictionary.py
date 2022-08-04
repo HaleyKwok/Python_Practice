@@ -21,3 +21,4 @@ print('----------------------------------------------------')
 
 for i in district['Kowloon City']['Whampoa']:
 	print(i)
+
