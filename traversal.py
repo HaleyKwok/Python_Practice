@@ -7,3 +7,9 @@ for k in knights.items():
 #enumerate()
 for i,v in enumerate(['sin', 'cos', 'tan']):
 	print(i,v)
+
+# #range()
+# list = [2, 3, 4]
+# for i in range(len(list)):
+#     print i, list[i]
+
