@@ -12,10 +12,12 @@ district={
         'Cyberport':['B','C','D','E']
     }
 }
-#####
+print('----------------------------------------------------')
+
 for i in district['Kowloon City']:
 	print(i)
 
-#####
+print('----------------------------------------------------')
+
 for i in district['Kowloon City']['Whampoa']:
 	print(i)

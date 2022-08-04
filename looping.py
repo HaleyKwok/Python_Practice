@@ -6,7 +6,8 @@ while counter <= n:
 	counter += 1
 print(f'{sum}')
 
-#####
+print('----------------------------------------------------')
+
 count = 0
 while count < 5:
 	print(count, " is smaller than 5")
@@ -14,14 +15,16 @@ while count < 5:
 else: 
 	print(count, " is larger or equal to 5")
 
-#####
+print('----------------------------------------------------')
+
 n = 0
 sum = 0
 for n in range(0,101):
     sum += n
 print(sum)
 
-#####
+print('----------------------------------------------------')
+
 sites = ['Baidu', 'Google', 'Meta', 'Taobao']
 for site in sites: 
 	if site == 'Meta':
@@ -32,13 +35,15 @@ else:
 	print('no looping data')
 print('Finish!')
 
-#####
+print('----------------------------------------------------')
+
 for i in range(1,6):
 	for j in range(1, i+1):
 		print("*",end='')
 	print('\r')
 
-#####
+print('----------------------------------------------------')
+
 #外边一层循环控制行数
 #i是行数
 i=1
@@ -52,7 +57,8 @@ while i<=9:
      print("")
      i+=1
 
-#####
+print('----------------------------------------------------')
+
 sites = ['Baidu', 'Google', 'Meta', 'Taobao']
 for site in sites:
 	if len(site) != 4:
@@ -62,7 +68,8 @@ for site in sites:
 		break
 print('Done!')
 
-######
+print('----------------------------------------------------')
+
 for letter in 'Google':
 	if letter == 'o':
 		pass

@@ -7,7 +7,8 @@ a = 4
 b = 5
 print(max(a, b))
 
-##### 
+print('----------------------------------------------------')
+
 def printme(str):
 	print(str)
 	return
@@ -15,14 +16,16 @@ def printme(str):
 printme('123')
 printme('abc')
 
-#####
+print('----------------------------------------------------')
+
 def printinfo(arg1, *vartuple):
 	print(arg1)
 	print(vartuple)
 
 printinfo(70,60,50)
 
-#####
+print('----------------------------------------------------')
+
 def printinfo(arg1, **vartuple):
 	print(arg1)
 	print(vartuple)

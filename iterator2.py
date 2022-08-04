@@ -17,7 +17,7 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 
-#####
+print('----------------------------------------------------')
 
 class MyNumbers:
 	def __iter__(self):
@@ -40,7 +40,8 @@ for x in myiter:
 
 
 
-#####
+print('----------------------------------------------------')
+
 import sys 
 def fibonacci(n):
 	a,b,counter = 0, 1, 0
