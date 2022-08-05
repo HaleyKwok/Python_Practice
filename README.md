@@ -1536,6 +1536,6 @@ Vector (7, 8)
 ---
 
 # Reference 参考资料
-菜鸟教程 www.runoob.com 
+[Python 基础教程](https://www.runoob.com/python/python-tutorial.html)
 <br>
 Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle
