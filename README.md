@@ -1,6 +1,7 @@
 # Python_Practice
  
 [toc]
+
 # Python
 - 解释型语言，开发过程中没有了编译这个环节。
 - 交互式语言，可以在一个 Python 提示符 >>> 后直接执行代码。
@@ -1512,5 +1513,6 @@ Vector (7, 8)
 ---
 
 # Reference 参考资料
-菜鸟教程 www.runoob.com
+菜鸟教程 www.runoob.com 
+<br>
 Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle
