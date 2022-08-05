@@ -1,6 +1,30 @@
 # Python_Practice
  
-[toc]
+ 
+- [Python](#python)
+- [基本数据类型](#基本数据类型)
+	- [六个标准的数据类型](#六个标准的数据类型)
+		- [1. Number](#1-number)
+		- [2. String](#2-string)
+		- [3. Tuple ()](#3-tuple-)
+	- [6. 内置函数（len..）](#6-内置函数len)
+		- [1. List []](#1-list-)
+			- [数据结构（data structure）](#数据结构data-structure)
+		- [2. Dictionary (key: value)](#2-dictionary-key-value)
+		- [3. Set {}](#3-set-)
+- [注释](#注释)
+- [运算符（operators）](#运算符operators)
+- [条件控制（if..elif..else）](#条件控制ifelifelse)
+- [循环语句（for & while）](#循环语句for--while)
+- [迭代器和生成器（iterator, generator）](#迭代器和生成器iterator-generator)
+- [函数（def）](#函数def)
+- [遍历（traversal）](#遍历traversal)
+- [模块（module）](#模块module)
+- [输入和输出](#输入和输出)
+- [错误和异常(try,except,else,finally,raise,assert)](#错误和异常tryexceptelsefinallyraiseassert)
+- [命名空间和作用域](#命名空间和作用域)
+- [面向对象（OOP）](#面向对象oop)
+- [Reference 参考资料](#reference-参考资料)
 
 # Python
 - 解释型语言，开发过程中没有了编译这个环节。
