@@ -1,6 +1,7 @@
 # Python_Practice
  
 [toc]
+
 # Python
 - 解释型语言，开发过程中没有了编译这个环节。
 - 交互式语言，可以在一个 Python 提示符 >>> 后直接执行代码。
@@ -64,7 +65,7 @@ string、[list](#1.List[]) 和 [tuple](#3.Tuple()) 都属于 sequence（序列�
 1. 访问字符串中的值
 indexing 索取: 变量[]
 slicing 切片: 变量[头下标:尾下标]； [start: end: step]
-![string_r](https://img-blog.csdnimg.cn/f8f7a87b06cb4f2d9f4798c990dac1a0.png)
+
 
 ```python
 t = ['a','b','c','d','e']
@@ -89,7 +90,7 @@ t = ['a','b','c','d','e']
 print(t[::-1])
 # ['e', 'd', 'c', 'b', 'a']
 ```
-![string_j](https://img-blog.csdnimg.cn/5c51b0a9fbac4284a30c02d468a71bd5.png#pic_center)
+
 
 2. 字符串更新
 截取string的一部分并与其他字段拼接：
@@ -559,27 +560,30 @@ print("Hello, World!")
 <span id="operators"></span>
 
 •	算术运算符 (+ - * / % ** //)
-
-![Python built-in numeric operations](https://img-blog.csdnimg.cn/3c22ad5fe0d6437fbba23423ae412df5.png#pic_center=200x150)
-<center> source: John M. Zelle, 2016 </center>
-
-
+<br>
 •	比较（关系）运算符 (== != > < >= <=)
+<br>
 •	赋值运算符 (= += -= *= /= %= **= //= :=)
+<br>
 •	逻辑运算符 (and or not)
+<br>
 •	位运算符 (& ^ | ~ << >>)
+<br>
+
 > "<<" 左移动运算符：运算数的各二进位全部左移若干位，由"<<"右边的数指定移动的位数，高位丢弃，低位补0。
 a << 2 输出结果 240 ，二进制解释： 1111 0000
 
 >  ">>" 右移动运算符：把">>"左边的运算数的各二进位全部右移若干位，">>"右边的数指定移动的位数。 
 a >> 2 输出结果 15 ，二进制解释： 0000 1111
 
-
+<br>
 •	成员运算符 (in, not in)
+<br>
 •	身份运算符 (is, is not)
+<br>
 > is 和 == 的区别：
 is 用于判断两个变量引用对象是否为同一个，后者用于判断引用变量的值是否相等
-
+<br>
 •	运算符优先级
 
 
@@ -1030,10 +1034,10 @@ abc
 
 
 4. 参数(parameters)
-•	必需参数
-•	关键字参数
-•	默认参数
-•	不定长参数
+•	必需参数 <br>
+•	关键字参数 <br>
+•	默认参数 <br>
+•	不定长参数 <br>
 一个函数能处理比当初声明时更多的参数：
 加了星号 * 的参数会以元组(tuple)的形式导入，存放所有未命名的变量参数
 
@@ -1147,8 +1151,6 @@ for i in range(len(list)):
 4. [iter()](#iterators)
 
 
-
-
 ---
 
 # 模块（module）
@@ -1186,19 +1188,17 @@ from numpy import *
 ```
 ---
 # 输入和输出
-f.write()
-f.read()
-f.readline()
-f.readlines()
-f.write()
-f.close()
+f.write() <br>
+f.read() <br>
+f.readline() <br>
+f.readlines() <br>
+f.write() <br>
+f.close() <br>
 ...
 
 ---
 # 错误和异常(try,except,else,finally,raise,assert)
 
-![error](https://img-blog.csdnimg.cn/6fd79241272e4c6ca5b70ef7dfbcebe9.png#pic_center)
-<center> Source: www.runoob.com </center>
 
 1. 异常处理 try/except
 
@@ -1512,5 +1512,6 @@ Vector (7, 8)
 ---
 
 # Reference 参考资料
-菜鸟教程 www.runoob.com
+菜鸟教程 www.runoob.com 
+<br>
 Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle
