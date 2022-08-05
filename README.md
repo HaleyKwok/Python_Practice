@@ -7,7 +7,6 @@
 		- [1. Number](#1-number)
 		- [2. String](#2-string)
 		- [3. Tuple ()](#3-tuple-)
-	- [6. 内置函数（len..）](#6-内置函数len)
 		- [1. List []](#1-list-)
 			- [数据结构（data structure）](#数据结构data-structure)
 		- [2. Dictionary (key: value)](#2-dictionary-key-value)
@@ -200,6 +199,7 @@ NameError: name 'tup' is not defined
 ```
 5. [运算符](#operators)
 6. 内置函数（len..）
+
 ---
 ### 1. List []
 <span id="1.List[]"></span>
