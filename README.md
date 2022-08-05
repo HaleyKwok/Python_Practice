@@ -243,6 +243,7 @@ print('NEW:', list1)
 ['Google', 'Taobao', 'MS', 'Apple']
 ```
 
+
 4. 删除列表元素
 使用 del 语句来删除列表的的元素：
 
