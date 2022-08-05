@@ -25,7 +25,7 @@ print("Total Employee %d" % Employee.empCount)
 
 print('----------------------------------------------------')
 
-# 
+# inheritance
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
  
