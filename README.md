@@ -150,18 +150,18 @@ I am Haley, I am 10 years old.
 
 <span id="3.Tuple()"></span>
 
-元组（tuple）与[list](#List())类似，但元组的元素不能修改。元组写在小括号 () 里，元素之间用逗号隔开：
+元组（tuple）与[list](#1.List[])类似，但元组的元素不能修改。元组写在小括号 () 里，元素之间用逗号隔开：
 
 ```python
-tuple = ['abcd', 999, 9.99, 'google', 99.9]
-othertuple = [123, 'instagram']
+tuple = ('abcd', 786, 2.23, 'csdn', 70.2)
+othertuple = (123, 'csdn')
 
 print(othertuple * 2) #加号 + 是列表连接运算符
 print(tuple + othertuple) #星号 * 是重复操作
 
 #return
-[123, 'instagram, 123, 'instagram']
-['abcd', 999, 9.99, 'google', 99.9, 123, 'instagram']
+(123, 'csdn'. 123, 'csdn')
+('abcd', 786, 2.23, 'csdn', 70.2, 123, 'csdn')
 ```
 1. 元组与[string](#2.String)类似，可以被索引且下标索引从0开始，-1 为从末尾开始的位置。也可以进行截取。
 2. 只包含一个元素时，需要在元素后面添加逗号，否则括号会被当作运算符使用：
@@ -178,7 +178,11 @@ type(tup1)
 <class 'tuple'>
 ```
 3. 修改元组
-对元组进行连接组合：
+虽然tuple的元素不可改变，但它可以包含可变的对象，比如list列表，或对元组进行连接组合：
+
+```python
+tuple = ('abcd', 123, 999, ['name','number'])
+```
 
 ```python
 tup1 = (12, 34.56)
@@ -200,7 +204,7 @@ print(tup)
 NameError: name 'tup' is not defined
 ```
 5. [运算符](#operators)
-6. 内置函数（len..）
+6. 内置函数（len..）****
 
 ---
 ### 1. List []
