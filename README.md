@@ -8,7 +8,6 @@
 		- [1. Number](#1-number)
 		- [2. String](#2-string)
 		- [3. Tuple ()](#3-tuple-)
-	- [6. 内置函数（len..）](#6-内置函数len)
 		- [1. List []](#1-list-)
 			- [数据结构（data structure）](#数据结构data-structure)
 		- [2. Dictionary (key: value)](#2-dictionary-key-value)
@@ -201,6 +200,7 @@ NameError: name 'tup' is not defined
 ```
 5. [运算符](#operators)
 6. 内置函数（len..）
+
 ---
 ### 1. List []
 <span id="1.List[]"></span>
@@ -1244,6 +1244,7 @@ while True:
 else 子句将在 try 子句没有发生任何异常的时候执行：
 
 - 使用except而不带异常类型
+<br>
 syntax：
 
 ```python
@@ -1273,7 +1274,9 @@ else:
 ```
 
 - 使用except而带多种异常类型
+<br>
 syntax：
+
 ```python
 try:
     正常的操作
@@ -1300,6 +1303,7 @@ Handling run-time error: division by zero
 
 3. try-finally 
 无论是否发生异常都将执行最后的代码
+<br>
 syntax：
 
 ```python
@@ -1326,6 +1330,7 @@ Error!
 
 4. raise
 raise语句可以触发异常
+<br>
 syntax：
 
 ```python
@@ -1390,8 +1395,8 @@ print(a) #global
 
 
 # 面向对象（OOP）
-对象可以包含任意数量和类型的数据。
-类定义
+类定义对象可以包含任意数量和类型的数据：
+
 ```python
 class ClassName:
 	statement1
