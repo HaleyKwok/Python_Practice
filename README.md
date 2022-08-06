@@ -1,6 +1,7 @@
 # Python_Practice
  
  
+- [Python_Practice](#python_practice)
 - [Python](#python)
 - [基本数据类型](#基本数据类型)
 	- [六个标准的数据类型](#六个标准的数据类型)
