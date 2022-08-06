@@ -24,6 +24,7 @@
 - [错误和异常(try,except,else,finally,raise,assert)](#错误和异常tryexceptelsefinallyraiseassert)
 - [命名空间和作用域](#命名空间和作用域)
 - [面向对象（OOP）](#面向对象oop)
+- [错题本](#错题本)
 - [Reference 参考资料](#reference-参考资料)
 
 # Python
@@ -1539,6 +1540,60 @@ print(v1 + v2)
 # return 
 Vector (7, 8)
 ```
+---
+# 错题本
+
+```python
+indian = ['samosa', 'daal', 'naan']
+chinese = ['egg role', 'pot sticker', 'fried rice']
+italian = ['pizza', 'pasta', 'risotta']
+
+foodstyle = str(input('enter the food style:'))
+
+'''
+list name
+'''
+if foodstyle == 'indian':
+    print(indian)
+elif foodstyle == 'chinese':
+    print(chinese)
+elif foodstyle == 'italian':
+    print(italian)
+
+
+
+# return 
+# enter the food style: chinese 
+# ['egg role', 'pot sticker', 'fried rice']
+
+print('--------------------------------------------------------')
+
+indian = ['samosa', 'daal', 'naan']
+chinese = ['egg role', 'pot sticker', 'fried rice']
+italian = ['pizza', 'pasta', 'risotta']
+
+dish = str(input('enter the dish:'))
+
+'''
+element
+'''
+if dish in indian:
+    print('indian')
+    
+elif dish in chinese:
+    print('chinese')
+elif dish in italian:
+    print('italian')
+else:
+    print('Error! Please enter again!')
+
+print('--------------------------------------------------------')
+
+# return
+# enter the dish:samosa
+# indian
+```
+
 
 ---
 
@@ -1546,3 +1601,6 @@ Vector (7, 8)
 [Python 基础教程](https://www.runoob.com/python/python-tutorial.html)
 <br>
 Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle
+<br>
+[Codebasics by Dhaval Patel](https://www.youtube.com/watch?v=eykoKxsYtow&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0)
+
