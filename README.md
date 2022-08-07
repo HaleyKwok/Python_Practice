@@ -1217,6 +1217,27 @@ from sympy import symbols, Eq, solve
 ```python
 from numpy import *
 ```
+
+__name__ 属性
+
+一个模块被另一个程序第一次引入时，其主程序将运行。如果我们想在模块被引入时，模块中的某一程序块不执行，我们可以用__name__属性来使该程序块仅在该模块自身运行时执行：
+```python
+# file name: module.py
+
+if __name__ == '__main__':
+   print('the program is running')
+else:
+   print('another module')
+
+# return
+$ python3 module.py
+the program is running
+$ python3
+>>> import module
+another module
+```
+
+
 ---
 # 输入和输出
 f.write() <br>

@@ -74,3 +74,16 @@ if __name__ == '__main__':
 please enter the radius of the circle:5
 area 78.53981633974483, circumference 31.41592653589793, diameter 10.0
 '''
+
+import math
+def circle_calculation(r):
+    area = math.pi*(r**2)
+    circumference = 2*math.pi*r
+    diameter = 2*r
+    return area, circumference, diameter
+
+def main():
+    r = float(input('please enter the radius of the circle:'))
+    area, circumference, diameter = circle_calculation(r)
+    print(f"area {area}, circumference {circumference}, diameter {diameter}")
+main()
