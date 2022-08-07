@@ -10,7 +10,7 @@ def add():
     if country in population:
         print("Country already exist in our dataset. Terminating")
         return
-    p=input(f"Enter population for {country}")
+    p=input(f"Enter population for {country}:")
     p=float(p)
     population[country]=p # Adds new key value pair to dictionary
     print_all()
@@ -47,7 +47,30 @@ def main():
 
 if __name__ == '__main__':
     main()
+'''
+Enter operation (add, remove, query or print):ADD
+Enter country name to add:UK
+Enter population for uk:23
+china==>143
+india==>136
+usa==>32
+pakistan==>21
+uk==>23.0
+'''
+print('----------------------------------------------------')
 
+import math 
+def circle_calculation(r):
+    area = math.pi*(r**2)
+    circumference = 2*math.pi*r
+    diameter = 2*r
+    return area, circumference, diameter 
 
-    print('----------------------------------------------------')
-
+if __name__ == '__main__':
+    r = float(input('please enter the radius of the circle:'))
+    area, circumference, diameter = circle_calculation(r)
+    print(f"area {area}, circumference {circumference}, diameter {diameter}")
+'''
+please enter the radius of the circle:5
+area 78.53981633974483, circumference 31.41592653589793, diameter 10.0
+'''
