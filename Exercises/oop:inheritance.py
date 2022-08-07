@@ -70,3 +70,75 @@ print(m.has_roof)
 
 print('------------------------------------------')
 
+class Animal: 
+    def __init__(self, habitat):
+        self.habitat = habitat
+    def print_habitat(self):
+        print(self.habitat)
+    def sound(self):
+        print('Some animal sound.')
+
+class Dog(Animal):
+    def __init__(self, habitat):
+        super().__init__(habitat) # call the super class constructor
+    def sound(self):
+        print('Woof! Woof!')
+
+d = Dog('land')
+d.print_habitat()
+d.sound()
+
+
+
+# class Animal: 
+#     def __int__(self, habitat):
+#         self.habitat = habitat
+#     def print_habitat(self):
+#         print(self.habitat)
+#     def sound(self):
+#         print('Some animal sound.')
+
+# class Dog(Animal):
+#     def __int__(self):
+#         super().__init__('land') # Attribute ERROR! # super() is a function that calls the parent class constructor.
+#         print('I am a dog.')
+#     def sound(self):
+#         print('Woof!')
+
+# class Cat(Animal):
+#     def __int__(self):
+#         super().__init__('land')
+#         print('I am a cat.')
+#     def sound(self):
+#         print('Meow!')
+
+# class Bird(Animal):
+#     def __int__(self):
+#         super().__init__('air')
+#         print('I am a bird.')
+#     def sound(self):
+#         print('Chirp!')
+
+# class Fish(Animal):
+#     def __int__(self):
+#         super().__init__('water')
+#         print('I am a fish.')
+#     def sound(self):
+#         print('Splash!')
+
+# try:
+#     d = Dog()    
+#     d.print_habitat()
+#     d.sound()
+#     c = Cat()
+#     c.print_habitat()
+#     c.sound()
+#     b = Bird()
+#     b.print_habitat()
+#     b.sound()
+#     f = Fish()
+#     f.print_habitat()
+#     f.sound()
+
+# except Exception as e:
+#     print(e)

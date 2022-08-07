@@ -38,7 +38,7 @@ class Parent:        # 定义父类
       print('调用父类方法')
  
    def setAttr(self, attr):
-      Parent.parentAttr = attr
+      Parent.parentAttr = attr 
  
    def getAttr(self):
       print("父类属性 :", Parent.parentAttr)
