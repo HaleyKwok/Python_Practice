@@ -15,6 +15,11 @@ tom.say_hi()
 tom.say_bye()
 tom.say_age()
 print(tom)
+
+# Hi, my name is Tom.
+# Bye, my name is Tom.
+# I am 20 years old.
+# Tom is 20 years old.
 print('----------------------------------------------------')
 
 
@@ -41,11 +46,21 @@ joe = Human('Joe', 'tennis player')
 joe.do_work()
 joe.speaks()
 print(joe)
+
+# Joe plays tennis
+# Joe says how are you?
+# Joe is a tennis player.
 print('----------------------------------------------------')
+
+
 tom = Human('Tom', 'actor')
 tom.do_work()
 tom.speaks()
 print(tom)
+
+# Tom shoots a film
+# Tom says how are you?
+# Tom is a actor.
 print('----------------------------------------------------')
 
         
