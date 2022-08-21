@@ -1,8 +1,8 @@
 # Python_Practice
  
- 
-- [Python_Practice](#python_practice)
-- [Python](#python)
+Python's basic syntax 
+
+
 - [基本数据类型](#基本数据类型)
 	- [六个标准的数据类型](#六个标准的数据类型)
 		- [1. Number](#1-number)
