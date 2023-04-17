@@ -1,22 +1,25 @@
+<span style = 'font-family: Times New Roman'>
+
 # Python_Practice
  
-Python's basic syntax 
+Python's basic syntax by HaleyKwok
 
-
+- [Python\_Practice](#python_practice)
+- [Python](#python)
 - [基本数据类型](#基本数据类型)
 	- [六个标准的数据类型](#六个标准的数据类型)
 		- [1. Number](#1-number)
 		- [2. String](#2-string)
 		- [3. Tuple ()](#3-tuple-)
-		- [1. List []](#1-list-)
+		- [1. List \[\]](#1-list-)
 			- [数据结构（data structure）](#数据结构data-structure)
 		- [2. Dictionary (key: value)](#2-dictionary-key-value)
 		- [3. Set {}](#3-set-)
 - [注释](#注释)
 - [运算符（operators）](#运算符operators)
 - [条件控制（if..elif..else）](#条件控制ifelifelse)
-- [循环语句（for & while）](#循环语句for--while)
-- [迭代器和生成器（iterator, generator）](#迭代器和生成器iterator-generator)
+- [循环语句（for \& while）](#循环语句for--while)
+- [Iterator and Generator](#iterator-and-generator)
 - [函数（def）](#函数def)
 - [遍历（traversal）](#遍历traversal)
 - [模块（module）](#模块module)
@@ -27,11 +30,14 @@ Python's basic syntax
 - [错题本](#错题本)
 - [Reference 参考资料](#reference-参考资料)
 
+---
+
 # Python
 - 解释型语言，开发过程中没有了编译这个环节。
 - 交互式语言，可以在一个 Python 提示符 >>> 后直接执行代码。
 - 面向对象语言，支持面向对象的风格或代码封装在对象的编程技术。
 - 支持广泛的应用程序开发，从文字处理到 WWW 浏览器再到游戏。
+
 
 ---
 # 基本数据类型
@@ -865,7 +871,7 @@ Goodbye!
 
 ---
 
-# 迭代器和生成器（iterator, generator）
+# Iterator and Generator 
 
 <span id="iterators"></span>
 1. iterator是一个可以记住遍历的位置的对象，有两个基本的方法：iter() 和 next()。
@@ -1624,8 +1630,8 @@ print('--------------------------------------------------------')
 
 # Reference 参考资料
 [Python 基础教程](https://www.runoob.com/python/python-tutorial.html)
-<br>
-Python-Programming_-An-Introduction-to-Computer-Science-Franklin-Beedle--Associates-2016---John-M.-Zelle
-<br>
+
+Zelle, J. M. (2004). *Python programming: an introduction to computer science.* Franklin, Beedle & Associates, Inc..
+
 [Codebasics by Dhaval Patel](https://www.youtube.com/watch?v=eykoKxsYtow&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0)
 
