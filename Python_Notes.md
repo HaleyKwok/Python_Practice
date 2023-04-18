@@ -1,3 +1,8 @@
+---
+html:
+	toc: true
+---
+
 <span style = 'font-family: Times New Roman'>
 
 # Python_Practice
